@@ -1,7 +1,7 @@
 (* pruebas con constantes *)
 
-val f = constante false
-val t = constante true
+val f = constante false;
+val t = constante true;
 
 val prop1 = f :=>: f :<=>: ~: f :=>: ~: f
 val prop2 = f :=>: f :<=>: ~: f :||: f
