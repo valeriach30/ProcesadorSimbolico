@@ -45,5 +45,4 @@ val pru13 = (vp :=>: ~: vp)  :&&: (vq :=>: ~: vq)
 (* para estresar a bonita *)
 val pru14 = vp :&&: (vp :||: vq) (* p & (p | q) *)
 val pru15 = (vp :||: ~: vp)  :&&: (vq :<=>: ~: vq)
-
 ;
