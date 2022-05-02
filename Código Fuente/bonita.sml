@@ -140,6 +140,6 @@ let
                     else p1 ^ simbolo ^ p2
 	          end
 in
-    bonitaR prop(* elimina valores repetidos *)
+    print("Proposicion: " ^ imprimir prop ^ "\nBonita: " ^ bonitaR prop ^ "\n")
 end
 ;
