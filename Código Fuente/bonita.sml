@@ -47,9 +47,9 @@ in
 end;
 
 (*
-Funcion que devuelve una lista con el orden de la proposicion escrita con variables y simbolos
+Funcion que devuelve un string la proposicion escrita con variables y simbolos bonitos
 Resultado:
-    -> Lista ordenada con las variables y simbolos correspondientes
+    -> String ordenado con las variables y simbolos correspondientes
 *)
 fun bonita prop=
 let
