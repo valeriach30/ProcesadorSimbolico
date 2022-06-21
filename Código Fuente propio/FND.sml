@@ -31,9 +31,3 @@ fun FND prop =
         recorrer lista_combinaciones_booleanas
     end
 ;
-
-
-val pru1 = ~:(variable "p") :&&: (variable "q") ;
-val pru2 = (variable "q") :=>: (variable "p") ;
-val pru3 = pru1 :=>: pru2 ;
-FND pru3;

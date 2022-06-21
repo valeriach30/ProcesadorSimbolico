@@ -3,11 +3,11 @@
 
 val prufnd1 = ~:(variable "p") :&&: (variable "q") ;
 val prufnd2 = (variable "q") :=>: (variable "p") ;
-val prufnd3 = pru1 :=>: pru2 ;
+val prufnd3 = prufnd1 :=>: prufnd2 ;
 
 FND prufnd3;
 
-fun probar prop = taut (prop :<=>: (fnd prop))
+fun probar prop = taut (prop :<=>: (FND prop))
 ;
 
-probar pru3;
+probar prufnd3;
